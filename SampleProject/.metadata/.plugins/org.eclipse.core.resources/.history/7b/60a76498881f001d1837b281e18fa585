@@ -1,0 +1,30 @@
+package sample;
+
+public class VowelCheck {
+	public static void main(String[] args) {
+		method1();
+	
+	}
+	
+	
+	public static void method1() {
+		String value="PremBhushan";
+
+		int count=value.length();
+		for(int i=0;i<count;i++) {
+			if(value.charAt(i)=='a'||value.charAt(i)=='e'||value.charAt(i)=='i'||value.charAt(i)=='o'||value.charAt(i)=='u') {
+				System.out.print(value.charAt(i));
+			}
+			
+		}
+		
+	}
+	
+	public static void method2() {
+		String value="krishnateja";
+		System.out.println(value.matches(".*[aeiou]*."));
+	}
+	
+	
+
+}
