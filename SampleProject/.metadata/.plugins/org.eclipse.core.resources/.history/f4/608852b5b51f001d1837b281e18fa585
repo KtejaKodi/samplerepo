@@ -12,9 +12,9 @@ public class ListofintegerscontainsoddNumbers {
 		List<Integer> list=Arrays.asList(1,2,4,8,5,35);
 		for(int i:list) {
 			if(i%2==0){
-				System.out.println(i + "Even Number");
+				System.out.println(i + "Oddnumber");
 			}
-			else System.out.println(i + "Odd Number");
+			else System.out.println(i + "EvenNumber");
 			
 		}
 		
